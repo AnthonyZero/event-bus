@@ -137,10 +137,10 @@ public void exceptionHandler(Message<T> message, Throwable throwable) {
 ### 消息业务拦截器
 支持业务方在消息的生命周期中自定义业务逻辑进行拦截处理
 只需要实现相关接口并注入Spring容器中
-1. 发送前 com.zkj.eventbus.core.api.interceptor.SendBeforeInterceptor
-2. 发送后 com.zkj.eventbus.core.api.interceptor.SendAfterInterceptor
-3. 消费成功 com.zkj.eventbus.core.api.interceptor.DeliverSuccessInterceptor
-4. 消费最终失败 com.zkj.eventbus.core.api.interceptor.DeliverThrowableInterceptor
+1. 发送前 com.anthonyzero.eventbus.core.api.interceptor.SendBeforeInterceptor
+2. 发送后 com.anthonyzero.eventbus.core.api.interceptor.SendAfterInterceptor
+3. 消费成功 com.anthonyzero.eventbus.core.api.interceptor.DeliverSuccessInterceptor
+4. 消费最终失败 com.anthonyzero.eventbus.core.api.interceptor.DeliverThrowableInterceptor
 
 
 
