@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.anthonyzero.eventbus.config.EventBusConfiguration,\
+  com.anthonyzero.eventbus.config.RequestIdGeneratorConfiguration
