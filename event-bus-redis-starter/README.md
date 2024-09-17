@@ -11,7 +11,7 @@
 Maven 引入
 ````
 <dependency>
-    <groupId>com.zkj.eventbus</groupId>
+    <groupId>com.anthonyzero.eventbus</groupId>
     <artifactId>event-bus-redis-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
